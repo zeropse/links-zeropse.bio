@@ -5,6 +5,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { siteConfig } from "@/config/site-config";
 import { cn } from "@/lib/utils";
 import { IconLoader, IconShare } from "@tabler/icons-react";
+import { toast } from "sonner";
 
 export default function Page() {
   const { profile, socials, links } = siteConfig;
@@ -32,6 +33,7 @@ export default function Page() {
             onClick={() => {
               if (typeof window !== "undefined") {
                 navigator.clipboard.writeText(window.location.href);
+                toast.success("Page link copied to clipboard!");
               }
             }}
             aria-label="Copy page link">
