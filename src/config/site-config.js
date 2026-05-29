@@ -4,9 +4,15 @@ import {
   IconBrandX,
   IconMail,
   IconBrandLinkedin,
+  IconBriefcase,
+  IconWriting,
+  IconBrandYoutube,
 } from "@tabler/icons-react";
 
 export const siteConfig = {
+  theme: {
+    background: "bg-gradient-to-br from-background via-muted to-background",
+  },
   profile: {
     name: "Srijit Dey",
     bio: "Web Developer | Student",
@@ -43,7 +49,7 @@ export const siteConfig = {
     },
     {
       name: "Email",
-      url: "mailto:hello@example.com",
+      url: "mailto:deysrijit2.work@gmail.com",
       icon: IconMail,
     },
   ],
@@ -53,18 +59,24 @@ export const siteConfig = {
       url: "https://zeropse.org",
       description: "Check out my latest projects and case studies.",
       highlight: true,
+      icon: IconBriefcase,
     },
     {
       label: "Read my Blog",
       url: "https://blog.zeropse.org",
       description: "Insights, tutorials, and stories from my journey in tech.",
       highlight: false,
+      icon: IconWriting,
     },
     {
       label: "YouTube Channel",
       url: "https://youtube.com/@zeropse",
       description: "Just some videos I made. Subscribe if you like them!",
       highlight: false,
+      icon: IconBrandYoutube,
     },
   ],
+  footer: {
+    text: "zeropse | Srijit Dey. All rights reserved.",
+  },
 };
