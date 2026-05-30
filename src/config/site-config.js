@@ -16,14 +16,14 @@ export const siteConfig = {
   profile: {
     name: "Srijit Dey",
     bio: "Web Developer | Student",
-    avatar: "https://zeropse.org/me.webp",
+    avatar: "https://zeropse.me/me.webp",
   },
   seo: {
     title: "Links | Srijit Dey",
     description:
       "Connect with Srijit Dey. Web Developer and currently a student.",
-    url: "https://zeropse.org",
-    ogImage: "https://zeropse.org/og-image.png",
+    url: "https://zeropse.me",
+    ogImage: "https://zeropse.me/og-image.png",
     twitterHandle: "@zer0pse",
   },
   socials: [
@@ -56,14 +56,14 @@ export const siteConfig = {
   links: [
     {
       label: "My Portfolio",
-      url: "https://zeropse.org",
+      url: "https://zeropse.me",
       description: "Check out my latest projects and case studies.",
       highlight: true,
       icon: IconBriefcase,
     },
     {
       label: "Read my Blog",
-      url: "https://blog.zeropse.org",
+      url: "https://blog.zeropse.me",
       description: "Insights, tutorials, and stories from my journey in tech.",
       highlight: false,
       icon: IconWriting,
