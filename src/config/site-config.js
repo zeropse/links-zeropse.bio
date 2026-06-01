@@ -5,6 +5,7 @@ import {
   IconMail,
   IconBrandLinkedin,
   IconBriefcase,
+  IconFileCv,
   IconWriting,
   IconBrandYoutube,
 } from "@tabler/icons-react";
@@ -60,6 +61,13 @@ export const siteConfig = {
       description: "Check out my latest projects and case studies.",
       highlight: true,
       icon: IconBriefcase,
+    },
+    {
+      label: "Resume",
+      url: "https://zeropse.me/resume.pdf",
+      description: "View or download my resume.",
+      highlight: false,
+      icon: IconFileCv,
     },
     {
       label: "Read my Blog",

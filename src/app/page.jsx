@@ -37,7 +37,9 @@ export default function Page() {
             onClick={() => {
               if (typeof window !== "undefined") {
                 navigator.clipboard.writeText(window.location.href);
-                toast.success("Page link copied to clipboard!");
+                toast.success("Page link copied to clipboard!", {
+                  duration: 1000,
+                });
               }
             }}
             aria-label="Copy page link">
