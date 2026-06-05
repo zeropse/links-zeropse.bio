@@ -22,11 +22,11 @@ export default function Page() {
           <div className="flex items-center gap-2 select-none">
             <img
               src="/favicon.ico"
-              alt="Links Logo"
+              alt="Socials Logo"
               className="w-5 h-5 rounded-sm"
             />
             <span className="font-semibold text-foreground tracking-tight">
-              Links
+              Socials
             </span>
           </div>
 

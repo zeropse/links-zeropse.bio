@@ -20,7 +20,7 @@ export const siteConfig = {
     avatar: "https://zeropse.me/me.webp",
   },
   seo: {
-    title: "Links | Srijit Dey",
+    title: "Socials | Srijit Dey",
     description:
       "Connect with Srijit Dey. Web Developer and currently a student.",
     url: "https://zeropse.me",
