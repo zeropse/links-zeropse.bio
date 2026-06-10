@@ -64,7 +64,7 @@ export const siteConfig = {
     },
     {
       label: "Resume",
-      url: "https://zeropse.me/resume.pdf",
+      url: "https://zeropse.me/Srijit_Dey_Web_Developer.pdf",
       description: "View or download my resume.",
       highlight: false,
       icon: IconFileCv,
